@@ -1,0 +1,1 @@
+"use strict";function doComplete(){}function gotoDefinition(){}Object.defineProperty(exports,"__esModule",{value:!0}),exports.gotoDefinition=exports.doComplete=void 0,exports.doComplete=doComplete,exports.gotoDefinition=gotoDefinition;

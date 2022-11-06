@@ -1,0 +1,1 @@
+"use strict";function escapeRegExp(e){return e.replace(/[-[\]{}()*+?.,\\^$|#\s]/g,"\\$&")}Object.defineProperty(exports,"__esModule",{value:!0}),exports.escapeRegExp=void 0,exports.escapeRegExp=escapeRegExp;

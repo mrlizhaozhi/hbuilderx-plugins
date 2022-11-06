@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ScssSymbolProcessor=void 0;const baseSymbolProcessor_1=require("./baseSymbolProcessor");class ScssSymbolProcessor extends baseSymbolProcessor_1.BaseSymbolProcessor{}exports.ScssSymbolProcessor=ScssSymbolProcessor;

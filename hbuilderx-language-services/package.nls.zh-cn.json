@@ -1,0 +1,6 @@
+{
+    "menu.rebuidindex.name": "重新构建项目索引",
+	"configuration.languagefeatures.title": "内置语言功能",
+	"typescript.validate.enable.desc":"启用 TypeScript 校验",
+	"javascript.validate.enable.desc":"启用 JavaScript 校验"
+}

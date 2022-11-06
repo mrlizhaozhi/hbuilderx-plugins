@@ -1,0 +1,13 @@
+{
+	"node.path": "config node path(&S)",
+	"description": "support running and debugging Node programs",
+	"package.name": "Node development",
+	"node.run.current": "run the current file using node",
+	"node.stop.run.current": "stop node operation",
+	"node.debug.current": "debug the current file using node",
+	"node.stop.debug.current": "stop node debugging",
+	"create.launch": "custom node run(&U)...",
+	"custom.node.debug": "custom node debugging",
+	"stop.custom.node.debug": "stop custom node debugging",
+	"custom.debug.file": "custom debug file"
+}

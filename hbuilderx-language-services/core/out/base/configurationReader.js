@@ -1,0 +1,1 @@
+"use strict";function getConfigurationValue(e,t,o){let i="@workspace/"+t;return i in e?e[i]:o}Object.defineProperty(exports,"__esModule",{value:!0}),exports.getConfigurationValue=void 0,exports.getConfigurationValue=getConfigurationValue;

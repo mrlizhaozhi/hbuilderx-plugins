@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.activate=void 0;const emmetCommon_1=require("../emmetCommon");function activate(e){(0,emmetCommon_1.activateEmmetExtension)(e)}exports.activate=activate;

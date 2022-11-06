@@ -1,0 +1,16 @@
+{
+    "description": "Run cloud functions and jql file locally",
+    "displayName": "uniCloud debugger",
+    "createCloudFunction.command.name": "New Cloud Function",
+    "createCommonModule.command.name": "New Common Module",
+    "dependency-manager.edit-function.command.name": "Manage common module/extension library dependencies",
+    "dependency-manager.edit-common.command.name": "Manage common module dependencies",
+    "launcher.runLocalCloudObject.name": "Run - Local cloud object",
+    "launcher.debugLocalCloudObject.name": "Debug - Local cloud object",
+    "launcher.runLocalCloudFunction.name": "Run - Local cloud function",
+    "launcher.debugLocalCloudFunction.name": "Debug - Local cloud function",    "uniclouddbschema.command.newdbSchemaResource": "New DB &Schema",    "unicloud.command.updatedbSchemaResource": "Opendb check &Update",
+    "launcher.uploadAndExec.name":"Upload And Run(&T)",
+    "launcher.uploadAndExecFunction.name":"Upload and Run",
+    "launcher.uploadAndExecObject.name":"Upload and Run",
+    "launcher.configureRunTestParam.name":"Configure run test parameters(&P)"
+}

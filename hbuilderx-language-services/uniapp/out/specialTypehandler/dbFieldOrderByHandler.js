@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class DBFieldOrderByHandler{doComplete(e,r,d,o){return[]}doCompleteResolve(e,r,d,o,t){return e}doHover(e,r,d,o){}doDefinition(e,r,d,o){return[]}doReference(e,r,d,o){return[]}}exports.default=DBFieldOrderByHandler;

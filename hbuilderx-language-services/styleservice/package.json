@@ -1,0 +1,28 @@
+{
+    "name": "styleservice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./out/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "contributes": {
+        "indexProcessors": [
+            {
+                "language": "css",
+                "url": "./out/modes/index/cssIndexProcessor.js"
+            },
+            {
+                "language": "scss",
+                "url": "./out/modes/index/scssIndexProcessor.js"
+            },
+            {
+                "language": "less",
+                "url": "./out/modes/index/lessIndexProcessor.js"
+            }
+        ]
+    }
+}

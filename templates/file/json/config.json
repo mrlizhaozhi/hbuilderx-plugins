@@ -1,0 +1,24 @@
+{
+    "name": "json文件模板",
+    "templates": [{
+            "file": "空白文件.json"
+        },
+        {
+            "file": "package.json(云函数).json",
+            "fixName": "package.json"
+        },
+        {
+            "file": "package.json(npm).json",
+            "fixName": "package.json"
+        },
+        {
+            "file": "package.json(uni_module).json",
+            "fixName": "package.json"
+        },
+        {
+            "file": "uni-jql-cache-redis.json.json",
+            "fixName": "uni-jql-cache-redis.json",
+            "when": "workspaceFolderRelativePath =~ /^uniCloud\\-(tcb|aliyun).*$/ || workspaceFolderRelativePath =~ /^uni_modules\\/.*\\/uniCloud.*$/ || workspaceFolderRelativePath =~ /^src\\/uni_modules\\/.*\\/uniCloud.*$/"
+        }
+    ]
+}

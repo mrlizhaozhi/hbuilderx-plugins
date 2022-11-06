@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.LogRedirectOutputChannel=void 0;class LogRedirectOutputChannel{constructor(e){this.name=e}append(e){console.log(`[${this.name}] ${e}`)}appendLine(e){console.log(`[${this.name}] ${e}`)}clear(){}show(e,t){}hide(){}dispose(){}}exports.LogRedirectOutputChannel=LogRedirectOutputChannel;

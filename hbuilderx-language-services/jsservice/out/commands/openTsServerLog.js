@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.OpenTsServerLogCommand=void 0;class OpenTsServerLogCommand{constructor(e){this.lazyClientHost=e,this.id="typescript.openTsServerLog2"}execute(){this.lazyClientHost.value.serviceClient.openTsServerLogFile()}}exports.OpenTsServerLogCommand=OpenTsServerLogCommand;

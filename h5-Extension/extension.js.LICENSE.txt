@@ -1,0 +1,11 @@
+/*!
+ * Hjson v3.2.1
+ * https://hjson.github.io
+ *
+ * Copyright 2014-2017 Christian Zangl, MIT license
+ * Details and documentation:
+ * https://github.com/hjson/hjson-js
+ *
+ * This code is based on the the JSON version by Douglas Crockford:
+ * https://github.com/douglascrockford/JSON-js (json_parse.js, json2.js)
+ */

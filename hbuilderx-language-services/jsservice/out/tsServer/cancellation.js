@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.noopRequestCancellerFactory=void 0;const noopRequestCanceller=new class{constructor(){this.cancellationPipeName=void 0}tryCancelOngoingRequest(e){return!1}};exports.noopRequestCancellerFactory=new class{create(e,t){return noopRequestCanceller}};

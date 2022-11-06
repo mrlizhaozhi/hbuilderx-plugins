@@ -1,0 +1,6 @@
+{
+    "menu.rebuidindex.name": "Rebuild Project Index",
+    "configuration.languagefeatures.title": "Builtin Language Features",
+	"typescript.validate.enable.desc":"Enable TypeScript Validation.",
+	"javascript.validate.enable.desc":"Enable JavaScript Validation."
+}

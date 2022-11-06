@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.cssData=void 0,exports.cssData=require("vscode-css-languageservice/lib/umd/data/webCustomData").cssData;

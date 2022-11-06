@@ -1,0 +1,94 @@
+{
+	"name": "%package.name%",
+	"id": "node-development",
+	"displayName": "%package.name%",
+	"version": "1.0.0-2022062311",
+	"__from": "HBuilderX",
+	"__private": true,
+	"engines": {
+		"HBuilderX": "^3.4.10"
+	},
+	"categories": ["Other"],
+	"license": "Copyright@ DCloud Co.,Ltd",
+	"activationEvents": [
+		"onLaunch:development.run.node.proxy",
+		"onLaunch:development.debug.node.proxy", 
+		"onLaunch:create.launch.proxy", 
+		"onLaunch:node.proxy", 
+		"onLaunch:config.node.path.proxy"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"expressions": {
+			"isNodeDebug": "plugin.isInstalled <- 'hbuilderx-node-debug'"
+		},
+		"launchers": [{
+			"type": "development.run.node.proxy",
+			"launcherId": "development.run.node",
+			"label": "${menuIndex}%node.run.current%",
+			"terminateLabel": "%node.stop.run.current%",
+			"mode": "run",
+			"when": "!expression.isNodeDebug && workspaceFolder.type == 'Web' && (langId == 'javascript' || langId == 'javascript_es6' || langId == 'typescript') && activeEditor.file.exists && editorTextFocus",
+			"priority": 100
+		}, {
+			"type": "development.debug.node.proxy",
+			"launcherId": "development.debug.node",
+			"label": "${menuIndex}%node.debug.current%",
+			"terminateLabel": "%node.stop.debug.current%",
+			"mode": "debug",
+			"when": "!expression.isNodeDebug && workspaceFolder.type == 'Web' && (langId == 'javascript' || langId == 'javascript_es6' || langId == 'typescript') && activeEditor.file.exists && editorTextFocus",
+			"priority": 99
+		}, {
+			"type": "create.launch.proxy",
+			"launcherId": "create.launch",
+			"label": "${menuIndex}%create.launch%",
+			"when": "!expression.isNodeDebug && workspaceFolder.type == 'Web' && (langId == 'javascript' || langId == 'javascript_es6' || langId == 'typescript') && activeEditor.file.exists && editorTextFocus",
+			"priority": 98
+		}, {
+			"type": "config.node.path.proxy",
+			"launcherId": "config.node.path",
+			"label": "${menuIndex}%node.path%",
+			"when": "!expression.isNodeDebug && workspaceFolder.type == 'Web' && (langId == 'javascript' || langId == 'javascript_es6' || langId == 'typescript') && activeEditor.file.exists && editorTextFocus",
+			"priority": 97
+		}, {
+			"type": "node.proxy",
+			"launcherId": "node",
+			"label": "%custom.node.debug%",
+			"terminateLabel": "%stop.custom.node.debug%",
+			"mode": "debug",
+			"when": "!expression.isNodeDebug && workspaceFolder.type == 'Web' && (langId == 'javascript' || langId == 'javascript_es6' || langId == 'typescript') && activeEditor.file.exists && editorTextFocus",
+			"priority": 1,
+			"initialConfigurations": [{
+				"name": "%custom.debug.file%",
+				"type": "node",
+				"request": "attach",
+				"mode": "debug",
+				"program": "${workspaceFolder}/dist/app.js",
+				"sourceMap": false,
+				"outFiles": ["${workspaceFolder}/dist/**/*.js"],
+				"skipFiles": ["<node_internals>/**/*.js"],
+				"sourceMapPathOverrides": {}
+			}]
+		}]
+	},
+	"scripts": {
+		"dev": "node run/pre.js",
+		"build": "npm run webpack:build",
+		"webpack:dev": "webpack -c webpack.dev.config.js",
+		"webpack:build": "webpack -c webpack.prod.config.js"
+	},
+	"devDependencies": {
+		"@types/node": "^17.0.26",
+		"copy-webpack-plugin": "^10.2.4",
+		"ts-loader": "^9.2.8",
+		"vscode-nls-dev": "^4.0.0",
+		"webpack": "^5.72.0",
+		"webpack-cli": "^4.9.2",
+		"webpack-merge": "^5.8.0"
+	},
+	"description": "%description%",
+	"dependencies": {
+		"esprima": "^4.0.1",
+		"needle": "^3.1.0"
+	}
+}

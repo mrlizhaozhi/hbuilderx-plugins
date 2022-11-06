@@ -1,0 +1,13 @@
+{
+	"node.path": "node路径配置(&S)",
+	"description": "支持运行和调试Node程序",
+	"package.name": "Node程序开发",
+	"node.run.current": "使用node运行当前文件",
+	"node.stop.run.current": "停止node运行",
+	"node.debug.current": "使用node调试当前文件",
+	"node.stop.debug.current": "停止node调试",
+	"create.launch": "自定义node运行(&U)...",
+	"custom.node.debug": "自定义node调试",
+	"stop.custom.node.debug": "停止自定义node调试",
+	"custom.debug.file": "自定义调试文件"
+}

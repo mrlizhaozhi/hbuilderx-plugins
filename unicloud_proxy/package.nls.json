@@ -1,0 +1,16 @@
+{
+    "description": "uniCloud本地调试插件，支持云函数右键本地运行、客户端调用本地云函数",
+    "displayName": "uniCloud本地调试运行插件",
+    "createCloudFunction.command.name": "新建云函数/云对象",
+    "createCommonModule.command.name": "新建公共模块",
+    "dependency-manager.edit-function.command.name": "管理公共模块或扩展库依赖",
+    "dependency-manager.edit-common.command.name": "管理公共模块依赖",
+    "launcher.runLocalCloudObject.name": "运行-本地云对象",
+    "launcher.debugLocalCloudObject.name": "调试运行-本地云对象",
+    "launcher.runLocalCloudFunction.name": "运行-本地云函数",
+    "launcher.debugLocalCloudFunction.name": "调试运行-本地云函数",    "uniclouddbschema.command.newdbSchemaResource":"新建DB Schema(&S)",    "unicloud.command.updatedbSchemaResource": "opendb检查更新(&U)",
+    "launcher.uploadAndExec.name":"上传并运行(&T)",
+    "launcher.uploadAndExecFunction.name":"上传并运行云函数",
+    "launcher.uploadAndExecObject.name":"上传并运行云对象",
+    "launcher.configureRunTestParam.name":"配置运行测试参数(&P)"
+}

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.registerBaseCommands=void 0;const openTsServerLog_1=require("./openTsServerLog");function registerBaseCommands(e,r,s){e.register(new openTsServerLog_1.OpenTsServerLogCommand(r))}exports.registerBaseCommands=registerBaseCommands;

@@ -1,0 +1,1 @@
+"use strict";function startsWith(t,e){if(t.length<e.length)return!1;for(let r=0;r<e.length;r++)if(t[r]!==e[r])return!1;return!0}function endsWith(t,e){let r=t.length-e.length;return r>0?t.lastIndexOf(e)===r:0===r&&t===e}Object.defineProperty(exports,"__esModule",{value:!0}),exports.endsWith=exports.startsWith=void 0,exports.startsWith=startsWith,exports.endsWith=endsWith;

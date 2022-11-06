@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.untrack=void 0;const reactivity_1=require("@vue/reactivity");function untrack(t){return(...e)=>{(0,reactivity_1.pauseTracking)();const r=t(...e);return(0,reactivity_1.resetTracking)(),r}}exports.untrack=untrack;

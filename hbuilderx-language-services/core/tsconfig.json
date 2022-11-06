@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "es2018",
+		"lib": [
+			"es2018"
+		],
+		"module": "commonjs",
+		"outDir": "./out",
+		"sourceMap": true,
+		"types": [
+			"node"
+		],
+		"composite": true,
+		"declaration": true,
+		"declarationMap": true,
+		"rootDir": "./src",
+		"downlevelIteration": true
+	},
+	"include": [
+		"src/**/*"
+	]
+}

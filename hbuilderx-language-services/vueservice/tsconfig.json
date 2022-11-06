@@ -1,0 +1,24 @@
+{
+	"extends": "./tsconfig.base.json",
+	"compilerOptions": {
+		"outDir": "./out",
+		"rootDir": "src"
+	},
+	"include": [
+		"src"
+	],
+	"references": [
+		{
+			"path": "./packages/source-map/tsconfig.build.json"
+		},
+		{
+			"path": "./packages/code-gen/tsconfig.build.json"
+		},
+		{
+			"path": "./packages/vue-code-gen/tsconfig.build.json"
+		},
+		{
+			"path": "./packages/vue-typescript/tsconfig.build.json"
+		}
+	]
+}

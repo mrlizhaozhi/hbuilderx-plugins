@@ -1,0 +1,1 @@
+const easycomService=require("../out/vue/easycomService");let easycoms=easycomService.collectEasycoms({name:"HelloUniapp2",uri:"file:///Users/wangkunpeng/Documents/HBuilderProjects/HelloUniapp2"});easycoms&&easycoms.forEach((e=>{console.log(e.name+"=>"+e.filePath)}));

@@ -1,0 +1,1 @@
+"use strict";function default_1(){return{compileTemplateToHtml(e,t){if("html"===e)return{html:t,mapping:e=>e}}}}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=default_1;

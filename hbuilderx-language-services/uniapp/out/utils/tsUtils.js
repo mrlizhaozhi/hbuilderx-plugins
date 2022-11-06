@@ -1,0 +1,1 @@
+"use strict";function fixTsNodeText(e){let t=e.trim();return(t.startsWith('"')&&t.endsWith('"')||t.startsWith("'")&&t.endsWith("'"))&&(t=t.slice(1,-1)),t}Object.defineProperty(exports,"__esModule",{value:!0}),exports.fixTsNodeText=void 0,exports.fixTsNodeText=fixTsNodeText;

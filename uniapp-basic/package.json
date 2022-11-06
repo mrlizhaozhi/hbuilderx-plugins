@@ -1,0 +1,27 @@
+{
+	"id": "uniapp-basic",
+	"name": "uniapp-basic",
+	"description": "uniapp-basic",
+	"displayName": "uniapp-basic",
+	"version": "0.0.10.2022071117",
+	"publisher": "HBuilderX",
+	"__private": true,
+	"engines": {
+		"HBuilderX": "^3.4.5"
+	},
+	"categories": [
+		"Other"
+	],
+	"main": "./extension",
+	"activationEvents": [
+		"*"
+	],
+	"contributes": {},
+	"extensionDependencies": [
+		"plugin-manager"
+	],
+	"dependencies": {
+		"adm-zip": "^0.5.9",
+		"iconv-lite": "^0.6.3"
+	}
+}

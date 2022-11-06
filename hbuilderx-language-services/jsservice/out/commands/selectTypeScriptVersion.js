@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SelectTypeScriptVersionCommand=void 0;class SelectTypeScriptVersionCommand{constructor(e){this.lazyClientHost=e,this.id="typescript.selectTypeScriptVersion"}execute(){this.lazyClientHost.value.serviceClient.showVersionPicker()}}exports.SelectTypeScriptVersionCommand=SelectTypeScriptVersionCommand;

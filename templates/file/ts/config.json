@@ -1,0 +1,7 @@
+{
+    "name": "ts文件模板",
+    "templates": [{
+            "file": "empty.ts"
+        }
+    ]
+}

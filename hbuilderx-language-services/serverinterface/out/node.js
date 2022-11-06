@@ -1,0 +1,1 @@
+"use strict";var SymbolType;Object.defineProperty(exports,"__esModule",{value:!0}),exports.SymbolType=void 0,function(e){e[e.StyleClass=0]="StyleClass",e[e.ElementId=1]="ElementId"}(SymbolType=exports.SymbolType||(exports.SymbolType={}));
